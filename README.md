@@ -3,6 +3,8 @@ Application  for adding two large numbers
 
 I would have made the UI more better if I had some more time for developing the application.
 I would have done code coverage for the Application.
+I want to improve the logging by using pagination mechanism in UI by displaying specified number of lines,for improving the 
+performance of UI.
 
 Steps to run and test the api
 
