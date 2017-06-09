@@ -24,3 +24,7 @@ Log Data can be checked using GetLogData
 
 http://localhost/api/AddTwoNumbers/GetLogData
 
+
+
+[![Build status](https://ci.appveyor.com/api/projects/status/tcx341v1t66ra2e9?svg=true)](https://ci.appveyor.com/project/rajendra-rpavankumar/addtwobignumbers)
+
