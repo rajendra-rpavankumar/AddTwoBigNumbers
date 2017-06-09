@@ -15,7 +15,8 @@ Steps to run and test the api
 The API methods can be test based on the given format
 
 Sum of two values can be checked using GetAddResult
-http://localhost:52703/api/AddTwoNumbers/GetAddResult?num1=100&num2=200
+
+http://localhost/api/AddTwoNumbers/GetAddResult?num1=100&num2=200
 
 Log Data can be checked using GetLogData
-http://localhost:52703/api/AddTwoNumbers/GetLogData
+http://localhost/api/AddTwoNumbers/GetLogData
