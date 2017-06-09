@@ -1,0 +1,25 @@
+﻿@model AddNumbers.Models.ApiCallModels
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+@using (Html.BeginForm("Index", "ApiCall", FormMethod.Post))
+{
+    @Html.Label("Enter first numeric value: ")
+    @Html.EditorFor(x => x.first)
+    <br />
+    @Html.Label("Enter second numeric value: ");
+    @Html.EditorFor(x => x.second)
+    <br />
+    <br />
+    @Html.Label("Result: ");
+    @Html.DisplayFor(x => x.result)
+    <br />
+    <br />
+    <br />
+    <input type="submit" value="Submit" />
+}
